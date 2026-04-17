@@ -1,51 +1,92 @@
 <html>
-    <head><title>MY Portfolio</title>
-        <style>
-            body{
-                background-color: #04101b;
-                color:white;
-                margin:0 8%;
-            }
-            .navbar{
-                display:flex;
-                background-color: #374450;
-               justify-content: center;
-                padding:20px;
-                  gap:10%;
-            }  
-            .navbar a{
-                color:white;
-                text-decoration: none;   
-            }
-            .navbar a:hover{
-                color:rgb(161, 240, 13);
-            }
-            h1{
-                text-align: left;
-            }
-           img{
-            width:30%;
-            height:50%;
+
+<head>
+    <title>MY Portfolio</title>
+    <style>
+        body {
+            background-color: #04101b;
+            color: white;
+            margin: 0 8%;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #374450;
+            justify-content: center;
+            padding: 20px;
+            gap: 10%;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: rgb(161, 240, 13);
+        }
+
+        h1 {
+            text-align: left;
+        }
+
+        img {
+            width: 40%;
+            height: 70%;
             border-radius: 50%;
-           }
-           .card{
-            display:flex;
-            justify-content:space-between;
-            margin:10px;
-           }
-        </style>
-    </head>
-    <body>
-        <div class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </div>
-        <div class="card">
-        <h1 align="center">Anushka</h1>
-        
-        <img src="Anushka.jpg"  >
+        }
+
+        .card {
+            display: flex;
+            justify-content: space-between;
+            margin: 10%;
+            padding: 0 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+        }
+
+        .para {
+            font-family: normal;
+            font-size: 15px;
+            padding: 0 2%;
+
+        }
+
+        button {
+            margin-top: 10px;
+            width:60%;
+            height: 15%;
+            background-color:rgb(161, 240, 13);
+            color:white;
+            font-weight:900;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
     </div>
-    </body>
+    <div class="card">
+        <div class="para">
+            <h1 align="center">Anushka</h1>
+
+
+            <p>BCA student with hands-on experience in web development through an internship. Strong foundation in
+                programming
+                fundamentals including Java, Python, and C, with working knowledge of HTML, CSS, JavaScript, and basic
+                backend
+                development. </p>
+
+            <button>Let's Get Started>
+            </button>
+        </div>
+        <img src="Anushka.jpg">
+    </div>
+</body>
+
+
 </html>
