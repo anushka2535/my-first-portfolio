@@ -2,6 +2,9 @@
 
 <head>
     <title>MY Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <style>
         body {
             background-color: #04101b;
@@ -20,6 +23,7 @@
         .navbar a {
             color: white;
             text-decoration: none;
+            font-weight: bolder;
         }
 
         .navbar a:hover {
@@ -28,6 +32,8 @@
 
         h1 {
             text-align: left;
+            font-weight: bolder;
+
         }
 
         img {
@@ -54,11 +60,27 @@
 
         button {
             margin-top: 10px;
-            width:60%;
+            width: 60%;
             height: 15%;
-            background-color:rgb(161, 240, 13);
-            color:white;
-            font-weight:900;
+            background-color: rgb(161, 240, 13);
+            color: white;
+            font-weight: 900;
+        }
+        button:hover{
+           background-color:black;
+            
+        }
+
+        .container {
+            margin-top: 15%;
+            background-color: #2d2f31;
+            width: auto;
+        }
+
+        .icon {
+            display: flex;
+            font-size: xx-large;
+            justify-content: flex-end;
         }
     </style>
 </head>
@@ -66,27 +88,54 @@
 <body>
     <div class="navbar">
         <a href="#">Home</a>
+        <a href="#About">About ME</a>
         <a href="#">Skills</a>
-        <a href="#">Projects</a>
+        <a href="#">View My Work</a>
         <a href="#">Contact</a>
     </div>
     <div class="card">
         <div class="para">
             <h1 align="center">Anushka</h1>
-
-
-            <p>BCA student with hands-on experience in web development through an internship. Strong foundation in
-                programming
-                fundamentals including Java, Python, and C, with working knowledge of HTML, CSS, JavaScript, and basic
-                backend
-                development. </p>
+            <p><b>Hi, I’m Anushka</b>
+                <br>
+                A curious mind learning to turn code into meaningful experiences.
+                I design and build web projects that are simple, functional, and impactful.
+            </p>
 
             <button>Let's Get Started>
             </button>
         </div>
         <img src="Anushka.jpg">
     </div>
-</body>
+    <div class="icon">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github" style="padding: 0 10px;"></i>
+    </div>
+    <div class="container" id="About">
+        <h1>About Me</h1>
 
+        <p>
+            Hello! I'm <b>Anushka</b>, a BCA student with a growing interest in web development
+            and problem-solving. I enjoy creating simple, user-friendly websites and turning
+            ideas into real projects.
+        </p>
+
+        <p>
+            Currently, I am learning frontend and backend development while working on projects
+            like a Skill Gap Analyzer and a Voting System. These projects are helping me
+            understand real-world application development.
+        </p>
+
+        <p>
+            My skills include HTML, CSS, JavaScript, Python, and Java. I am also exploring
+            technologies like React and backend frameworks.
+        </p>
+
+        <p>
+            My goal is to become a full-stack developer and build impactful digital solutions
+            that solve real problems.
+        </p>
+    </div>
+</body>
 
 </html>
